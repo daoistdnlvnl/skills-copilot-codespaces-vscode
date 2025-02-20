@@ -13,5 +13,5 @@ app.get('/comments', (req, res) => {
 
 //listen for requests
 app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${port}`);
+    console.log(`Server listening at http://localhost:8000`);
 });
